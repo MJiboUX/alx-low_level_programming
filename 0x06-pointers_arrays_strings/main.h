@@ -1,5 +1,5 @@
-#ifndef main_H
-#define main_H
+#ifndef MAIN_H
+#define MAIN_H
 
 int _putchar(char c);
 char *_strcat(char *dest, char *src);
@@ -12,4 +12,4 @@ char *cap_string(char *n);
 char *leet(char *n);
 char *rot13(char *n);
 
-#endif /* main_H */
+#endif /* MAIN_H */
