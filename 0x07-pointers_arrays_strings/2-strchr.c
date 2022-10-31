@@ -1,6 +1,5 @@
-#include "holberton.h"
+#include "main.h"
 #include <stdio.h>
-
 /**
  * _strchr - Entry point
  * @s: input
