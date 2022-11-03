@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 int lengthc(char *s);
 int palindrome(char str[], int st, int end);
 /**
@@ -28,7 +28,6 @@ int lengthc(char *s)
 		return (1 + lengthc(s + 1));
 	return (0);
 }
-
 /**
  * palindrome - checks if start and end of string matches
  * @str: string
