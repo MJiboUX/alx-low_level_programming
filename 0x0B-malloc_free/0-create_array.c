@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 #include <stdlib.h>
 #include <stdio.h>
 /**
@@ -7,7 +7,6 @@
  * @c: char
  * Return: 0
  */
-
 char *create_array(unsigned int size, char c)
 {
 	char *array;
