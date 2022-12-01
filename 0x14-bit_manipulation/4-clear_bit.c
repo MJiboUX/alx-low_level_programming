@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 /**
  * clear_bit - Entry Point
  * @n: input
@@ -13,4 +13,3 @@
 	*n = *n & ~(1ul << index);
 	return (1);
 }
-
